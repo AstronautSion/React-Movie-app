@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Navigation />
         <Route path="/React-Movie-app/" exact={true} component={Home} />
-        <Route path="/React-Movie-app/about" component={About} />
+        <Route path="/React-Movie-app/about" exact={true} component={About} />
         <Route path="/React-Movie-app/movie/:id" component={Detail} />
     </BrowserRouter>
   );
