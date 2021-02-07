@@ -10,9 +10,9 @@ function App() {
   return (
     <BrowserRouter>
       <Navigation />
-        <Route path="/" exact={true} component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/movie/:id" component={Detail} />
+        <Route path="/React-Movie-app/" exact={true} component={Home} />
+        <Route path="/React-Movie-app/about" component={About} />
+        <Route path="/React-Movie-app/movie/:id" component={Detail} />
     </BrowserRouter>
   );
 }
