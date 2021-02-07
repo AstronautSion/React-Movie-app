@@ -6,12 +6,12 @@ class Detail extends React.Component {
         const { location, history } = this.props;
         console.log(location.state )
         if( location.state === undefined ){
-            history.push("/");
+            history.push("/React-Movie-app/");
         }
     }
     render(){
         const { location } = this.props;
-        const { id, poster, summary, title, year, genres } = location.state;
+        const { poster, summary, title, year, genres } = location.state;
         if(location.state){
             return <div className="detail">
                     <img className="detail__poster" src={poster} alt={title} title={title} />

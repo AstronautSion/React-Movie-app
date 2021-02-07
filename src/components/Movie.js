@@ -9,7 +9,7 @@ function Movie({ id, year, title, summary, poster, genres}){
         
         <div className="movie">
             <Link to={{
-                pathname: `/movie/${id}`,
+                pathname: `/React-Movie-app/movie/${id}`,
                 state: {
                     id,
                     year,
