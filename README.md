@@ -1,5 +1,9 @@
 # Movie App 2021
 
-[go to movie app](https://astronautsion.github.io/React-Movie-app/)   
+[Go to movie app](https://astronautsion.github.io/React-Movie-app/)   
 
-Created React Movie App for study
+<br>
+
+#### 사용한 API
+https://yts-proxy.now.sh/list_movies.json?sort_by=rating
+

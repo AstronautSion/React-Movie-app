@@ -1,0 +1,47 @@
+  
+  .detail{
+      width:90%;
+      margin:0 auto;
+      text-align:center;
+      padding:5em 0;
+      max-width:800px;
+  }
+  .detail__poster {
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    margin-right: 30px;
+    margin-bottom:3em;
+    box-shadow: 0 10px 30px -12px rgba(50, 50, 93, 0.25),
+      0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  }
+  
+  .detail__title,
+  .detail__year {
+    margin: 0;
+    font-weight: 300;
+  }
+  
+  .detail__title {
+    display:block;
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #2c2c2c;
+  }
+  
+  .detail__genres {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 5px 0px;
+  }
+  
+  .detail__genres li,
+  .detail__year {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
